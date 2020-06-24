@@ -1,0 +1,39 @@
+<!DOCTYPE html5>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Барбершоп "Бородинский"</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <section>
+      <h2>Личный кабинет</h2>
+      <p>Введите логин и пароль</p>
+      <form action="" method="POST">
+        <p>
+        <label class="visually-hidden" for="login-name">Логин</label>
+        <input type="text" name="login" id="login-name" placeholder="Логин">
+      </p>
+      <p>
+      <label class="visually-hidden" for="login-password">Пароль</label>
+      <input type="password" name="password" id="login-password" placeholder="Пароль">
+    </p>
+    <p>
+    <label class="visually-hidden" for="login-remember">Запомнить меня</label>
+    <input type="checkbox" name="remember" id="login-remember">
+  </p>
+  <a class="login__link" href="#">Напомнить пароль</a>
+  <button type="submit" class="btn login__btn">Войти</button>
+      </form>
+      <p>
+        Впервые на нашем сайте?
+        <a class="login__link" href="#">Зарегестрируйтесь!</a>
+      </p>
+      <button class="close__btn" type="button">Закрыть</button>
+    </section>
+  </main>
+</body>
+
+</html>
